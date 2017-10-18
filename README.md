@@ -19,7 +19,7 @@ compile 'com.google.android.gms:play-services-location:8.1.0'
 \<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
 # Result
-location is stored in two variables(type: double):
+location is stored in two variables (type: double):
 - latitude
 - longtitude
 <p align="center"/>
