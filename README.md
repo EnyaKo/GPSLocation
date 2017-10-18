@@ -14,6 +14,10 @@ Installed Google Play
 ### add the following line in file build.gradle, and click on Sync Project with Gradle Files
 compile 'com.google.android.gms:play-services-location:8.1.0'
 
+### add the following lines in file AndroidManifest.xml
+\<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>\
+\<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
 # Result
 <p align="center"/>
 <img src="pic/result.jpg" height="500" />
