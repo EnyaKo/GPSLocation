@@ -2,6 +2,7 @@ Get GPS location with Android Studio
 
 # On the Device
 Android version: more than 2.3.3(API 10)
+
 Installed Google Play 
 
 # On Android Studio
