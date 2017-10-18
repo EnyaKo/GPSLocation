@@ -37,6 +37,9 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
     protected TextView mLatitudeText;
     protected TextView mLongitudeText;
 
+    public double latitude;
+    public double longtitude;
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -86,8 +89,10 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
         mLastLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
         if (mLastLocation != null)
         {
-            mLatitudeText.setText(String.format("%s: %f", mLatitudeLabel, mLastLocation.getLatitude()));
-            mLongitudeText.setText(String.format("%s: %f", mLongitudeLabel, mLastLocation.getLongitude()));
+            latitude = mLastLocation.getLatitude();
+            longtitude = mLastLocation.getLongitude();
+            mLatitudeText.setText(String.format("%s: %f", mLatitudeLabel, latitude));
+            mLongitudeText.setText(String.format("%s: %f", mLongitudeLabel, longtitude));
         }
         else
         {
