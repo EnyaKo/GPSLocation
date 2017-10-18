@@ -12,5 +12,6 @@ compile 'com.google.android.gms:play-services-location:8.1.0'
 
 ## Result
 <p align="center"/>
-<img src="pics/result.jpg" height="500" />
+<img src="pic/result.jpg" height="500" />
+
 /***note that this program get GPS location when the program starts; it will not update the location until finishing the program***/
