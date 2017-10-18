@@ -7,7 +7,7 @@ Installed Google Play
 
 # On Android Studio
 
-### Installed Google Play services on Android Studio
+### Install Google Play services on Android Studio
 <p align="center"/>
 <img src="pic/install_google_play_services.png" height="500" />
 
